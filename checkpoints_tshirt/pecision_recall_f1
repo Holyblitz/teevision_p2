@@ -1,0 +1,13 @@
+(base) romain@Debian-Romain:~/port_folio/port_folio_ds/teevision/classifiers$ python eval_tshirt_classifier.py --ckpt checkpoints_tshirt/tshirt_resnet18_best.pth
+              precision    recall  f1-score   support
+
+  not_tshirt       0.98      0.99      0.98      9000
+      tshirt       0.87      0.85      0.86      1000
+
+    accuracy                           0.97     10000
+   macro avg       0.93      0.92      0.92     10000
+weighted avg       0.97      0.97      0.97     10000
+
+(base) romain@Debian-Romain:~/port_folio/port_folio_ds/teevision/classifiers$ 
+
+
